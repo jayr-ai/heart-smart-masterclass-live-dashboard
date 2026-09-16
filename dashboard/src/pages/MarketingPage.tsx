@@ -232,7 +232,7 @@ export function MarketingPage() {
                     dataKey="value"
                     label={({ name, percent }) => `${name} ${((percent || 0) * 100).toFixed(0)}%`}
                   >
-                    <Cell fill="#20d020" />
+                    <Cell fill="#ff5757" />
                     <Cell fill="#666666" />
                   </Pie>
                   <Tooltip formatter={(value) => formatCurrency(value as number)} contentStyle={{ backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '8px', color: '#fff' }} />
@@ -240,7 +240,7 @@ export function MarketingPage() {
               </ResponsiveContainer>
               <div className="mt-4 flex justify-center gap-6 text-sm">
                 <div className="flex items-center gap-2">
-                  <div className="h-3 w-3 rounded-full" style={{ backgroundColor: '#20d020' }}></div>
+                  <div className="h-3 w-3 rounded-full" style={{ backgroundColor: '#ff5757' }}></div>
                   <span className="text-fa-text">Ads: {formatCurrency(Math.round(cashFromAdsV2))}</span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -261,7 +261,7 @@ export function MarketingPage() {
                   <Tooltip formatter={(value) => formatCurrency(value as number)} labelFormatter={(date) => date ? new Date(date as string).toLocaleDateString('en-AU', { year: 'numeric', month: 'short', day: 'numeric' }) : ''} contentStyle={{ backgroundColor: '#1a1a1a', border: '1px solid #333', borderRadius: '8px', color: '#fff' }} />
                   <Legend wrapperStyle={{ color: '#ccc' }} />
                   <ReferenceLine y={dailyBreakdownV2.reduce((sum, d) => sum + d.paid + d.organic, 0) / dailyBreakdownV2.length} stroke="#666" strokeDasharray="5 5" name="Daily Avg" label={{ value: 'Daily Avg', position: 'right', fill: '#999', fontSize: 12 }} />
-                  <Bar dataKey="paid" stackId="a" fill="#20d020" name="Ads" />
+                  <Bar dataKey="paid" stackId="a" fill="#ff5757" name="Ads" />
                   <Bar dataKey="organic" stackId="a" fill="#666666" name="Organic" />
                 </BarChart>
               </ResponsiveContainer>

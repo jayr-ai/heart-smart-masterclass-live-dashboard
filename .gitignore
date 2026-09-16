@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+sync/row_count_baseline.json
+.env
+sync/.env
+*.local.json
+sync/secrets.local.json

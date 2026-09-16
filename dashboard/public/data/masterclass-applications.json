@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-16T00:20:35.480107Z",
+    "source": "Google Sheet 'Heart Smart Webinar Lead Tracker' (Column K 'Call Booked Event' contains 'application', no Booking Status condition \u2014 see fetch_sheets.py docstring) \u2014 unique emails per Webinar Date",
+    "dataWindow": "2026-04-10 to 2026-08-26",
+    "totalApplications": 30
+  },
+  "applications": [
+    {
+      "date": "2026-08-26",
+      "applications": 0
+    },
+    {
+      "date": "2026-08-19",
+      "applications": 1
+    },
+    {
+      "date": "2026-08-14",
+      "applications": 0
+    },
+    {
+      "date": "2026-06-18",
+      "applications": 9
+    },
+    {
+      "date": "2026-06-10",
+      "applications": 12
+    },
+    {
+      "date": "2026-06-03",
+      "applications": 2
+    },
+    {
+      "date": "2026-05-28",
+      "applications": 0
+    },
+    {
+      "date": "2026-05-21",
+      "applications": 2
+    },
+    {
+      "date": "2026-05-14",
+      "applications": 1
+    },
+    {
+      "date": "2026-05-07",
+      "applications": 2
+    },
+    {
+      "date": "2026-05-01",
+      "applications": 1
+    },
+    {
+      "date": "2026-04-24",
+      "applications": 0
+    },
+    {
+      "date": "2026-04-17",
+      "applications": 0
+    },
+    {
+      "date": "2026-04-10",
+      "applications": 0
+    }
+  ]
+}

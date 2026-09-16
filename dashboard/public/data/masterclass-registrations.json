@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-16T00:20:33.144903Z",
+    "source": "Google Sheet 'Heart Smart Webinar Lead Tracker' (gid-fetched tab, direct pull) \u2014 unique emails (Column C) per Webinar Date (Column F)",
+    "dataWindow": "2026-04-10 to 2026-08-26",
+    "totalRegistrations": 2822
+  },
+  "masterclassRegistrations": [
+    {
+      "date": "2026-08-26",
+      "label": "26 Aug 2026",
+      "registered": 212
+    },
+    {
+      "date": "2026-08-19",
+      "label": "19 Aug 2026",
+      "registered": 186
+    },
+    {
+      "date": "2026-08-14",
+      "label": "14 Aug 2026",
+      "registered": 1
+    },
+    {
+      "date": "2026-06-18",
+      "label": "18 Jun 2026",
+      "registered": 420
+    },
+    {
+      "date": "2026-06-10",
+      "label": "10 Jun 2026",
+      "registered": 574
+    },
+    {
+      "date": "2026-06-03",
+      "label": "03 Jun 2026",
+      "registered": 211
+    },
+    {
+      "date": "2026-05-28",
+      "label": "28 May 2026",
+      "registered": 276
+    },
+    {
+      "date": "2026-05-21",
+      "label": "21 May 2026",
+      "registered": 268
+    },
+    {
+      "date": "2026-05-14",
+      "label": "14 May 2026",
+      "registered": 195
+    },
+    {
+      "date": "2026-05-07",
+      "label": "07 May 2026",
+      "registered": 216
+    },
+    {
+      "date": "2026-05-01",
+      "label": "01 May 2026",
+      "registered": 212
+    },
+    {
+      "date": "2026-04-24",
+      "label": "24 Apr 2026",
+      "registered": 38
+    },
+    {
+      "date": "2026-04-17",
+      "label": "17 Apr 2026",
+      "registered": 8
+    },
+    {
+      "date": "2026-04-10",
+      "label": "10 Apr 2026",
+      "registered": 5
+    }
+  ]
+}

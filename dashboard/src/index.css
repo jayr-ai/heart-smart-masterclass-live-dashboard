@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+
+  /*
+   * Heart Smart brand palette — retinted from the fa-masterclass-live-dashboard
+   * template to match the red (#FF5757) already used across Heart Smart's
+   * other live dashboards (EOD report, Revenue Dashboard, Meta report).
+   * Same dark structure/roles as the FA template, warm-dark base instead of
+   * dark green, brand red as the highlight/hero color instead of lime.
+   * Variable names kept as `--color-fa-*` (unchanged, not user-visible) to
+   * minimize the diff against the template this was cloned from.
+   */
+  --color-fa-bg: #170e0e; /* --plane */
+  --color-fa-surface: #211313; /* --surface */
+  --color-fa-surface-2: #2b1919; /* --raised */
+  --color-fa-border: rgba(237, 237, 238, 0.1); /* --line */
+  --color-fa-accent: #f4b8b8; /* --accent — primary UI accent, positive deltas */
+  --color-fa-accent-dim: #7a3d3d; /* --accent-dim */
+  --color-fa-mint: #b56666; /* --mint (secondary muted red) */
+  --color-fa-neon: #ff5757; /* --neon — Heart Smart brand red, highlight dot / hero numbers */
+  --color-fa-neon-ink: #fff5f0; /* --neon-ink — text on neon/accent fills */
+  --color-fa-text: #ededee; /* --ink */
+  --color-fa-text-dim: #d9a3a3; /* --ink-2 */
+  --color-fa-text-faint: #a37d7d; /* --muted */
+  --color-fa-red: #ffb020; /* --critical — amber, kept distinct from the now-red brand accent */
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--color-fa-bg);
+  color: var(--color-fa-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-fa-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-fa-border);
+  border-radius: 8px;
+}

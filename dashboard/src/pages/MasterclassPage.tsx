@@ -373,7 +373,7 @@ export function MasterclassPage() {
         title="Revenue Per Masterclass Run — all tracked runs, not affected by the date selector above"
         data={revenueByRun}
         height={240}
-        colorIndex={2}
+        color="#ff5757"
       />
 
       <OneOffEvents events={oneOffEvents} />

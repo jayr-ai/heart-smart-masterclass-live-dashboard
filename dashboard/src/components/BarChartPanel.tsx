@@ -24,6 +24,7 @@ interface BarChartPanelProps {
   orientation?: 'vertical' | 'horizontal' // vertical = bars go up (time series), horizontal = bars go right (comparison)
   height?: number
   colorIndex?: number
+  color?: string // overrides colorIndex when set — for brand-specific accents (e.g. Heart Smart red) rather than the generic categorical palette
 }
 
 export function BarChartPanel({
@@ -32,8 +33,9 @@ export function BarChartPanel({
   orientation = 'vertical',
   height = 220,
   colorIndex = 0,
+  color: colorOverride,
 }: BarChartPanelProps) {
-  const color = CATEGORICAL[colorIndex % CATEGORICAL.length]
+  const color = colorOverride ?? CATEGORICAL[colorIndex % CATEGORICAL.length]
 
   return (
     <div className="rounded-xl border border-fa-border bg-fa-surface p-5">
@@ -61,7 +63,7 @@ export function BarChartPanel({
               />
               <Tooltip
                 cursor={{ fill: 'rgba(255,255,255,0.03)' }}
-                contentStyle={{ background: '#1c2a24', border: '1px solid rgba(237,237,238,0.1)', borderRadius: 8, fontSize: 12 }}
+                contentStyle={{ background: '#2b1919', border: '1px solid rgba(237,237,238,0.1)', borderRadius: 8, fontSize: 12 }}
                 formatter={(value, _n, entry) => {
                   const d = entry?.payload as BarDatum
                   if (d?.muted) return ['not captured in source', '']
@@ -100,7 +102,7 @@ export function BarChartPanel({
               />
               <Tooltip
                 cursor={{ fill: 'rgba(255,255,255,0.03)' }}
-                contentStyle={{ background: '#1c2a24', border: '1px solid rgba(237,237,238,0.1)', borderRadius: 8, fontSize: 12 }}
+                contentStyle={{ background: '#2b1919', border: '1px solid rgba(237,237,238,0.1)', borderRadius: 8, fontSize: 12 }}
                 formatter={(value) => formatCurrency(Number(value))}
               />
               <Bar dataKey="amount" radius={[0, 4, 4, 0]} maxBarSize={22}>

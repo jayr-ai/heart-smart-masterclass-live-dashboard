@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-16T00:22:40.792647Z",
-    "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery, sheet's own Attribution column not used (near-empty for Heart Smart)",
-    "dataWindow": "2025-12-31 to 2026-09-12"
+    "generatedAt": "2026-09-17T01:13:49.593705Z",
+    "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery, sheet's own Attribution column not used for automated sync (see IMPLEMENTATION.md note on manual update option)",
+    "dataWindow": "2025-12-31 to 2026-09-16"
   },
   "monthlySummary": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "month": "2026-09",
-      "totalCash": 69563.0,
-      "cashFromAds": 40974.0,
-      "cashFromOrganic": 28589.0,
-      "transactionCount": 21
+      "totalCash": 76656.0,
+      "cashFromAds": 42973.0,
+      "cashFromOrganic": 33683.0,
+      "transactionCount": 24
     }
   ],
   "dailyBreakdown": [
@@ -1462,6 +1462,18 @@
       "totalCash": 4997.0,
       "cashFromAds": 4997.0,
       "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-14",
+      "totalCash": 97.0,
+      "cashFromAds": 0.0,
+      "cashFromOrganic": 97.0
+    },
+    {
+      "date": "2026-09-16",
+      "totalCash": 6996.0,
+      "cashFromAds": 1999.0,
+      "cashFromOrganic": 4997.0
     }
   ],
   "transactions": [
@@ -18357,7 +18369,7 @@
     },
     {
       "date": "2026-08-14",
-      "name": "",
+      "name": "Michelle De Bresser",
       "email": "michelledb88@gmail.com",
       "product": "",
       "amount": 97.0,
@@ -20022,6 +20034,36 @@
       "product": "Premium +",
       "amount": 4997.0,
       "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-14",
+      "name": "Michelle De Bresser",
+      "email": "michelledb88@gmail.com",
+      "product": "",
+      "amount": 97.0,
+      "closer": "",
+      "mode": "Stripe",
+      "source": "Organic"
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Kim Vella",
+      "email": "ccvella@hotmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Organic"
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Jennifer Sims",
+      "email": "jnnfrsms08@gmail.com",
+      "product": "Premium +",
+      "amount": 1999.0,
+      "closer": "Daniel Henderson",
       "mode": "Stripe",
       "source": "Paid"
     }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-16T00:20:35.480107Z",
+    "generatedAt": "2026-09-17T01:13:02.597671Z",
     "source": "Google Sheet 'Heart Smart Webinar Lead Tracker' (Column K 'Call Booked Event' contains 'application', no Booking Status condition \u2014 see fetch_sheets.py docstring) \u2014 unique emails per Webinar Date",
     "dataWindow": "2026-04-10 to 2026-08-26",
     "totalApplications": 30

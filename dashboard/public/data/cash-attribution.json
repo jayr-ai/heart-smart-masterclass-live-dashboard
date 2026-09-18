@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-17T01:13:49.593705Z",
-    "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery, sheet's own Attribution column not used for automated sync (see IMPLEMENTATION.md note on manual update option)",
-    "dataWindow": "2025-12-31 to 2026-09-16"
+    "generatedAt": "2026-09-18T04:46:38.430216Z",
+    "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
+    "dataWindow": "2025-12-31 to 2026-09-18"
   },
   "monthlySummary": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "month": "2026-09",
-      "totalCash": 76656.0,
-      "cashFromAds": 42973.0,
+      "totalCash": 92698.0,
+      "cashFromAds": 59015.0,
       "cashFromOrganic": 33683.0,
-      "transactionCount": 24
+      "transactionCount": 30
     }
   ],
   "dailyBreakdown": [
@@ -1474,6 +1474,18 @@
       "totalCash": 6996.0,
       "cashFromAds": 1999.0,
       "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-09-17",
+      "totalCash": 3549.0,
+      "cashFromAds": 3549.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-18",
+      "totalCash": 12493.0,
+      "cashFromAds": 12493.0,
+      "cashFromOrganic": 0.0
     }
   ],
   "transactions": [
@@ -20063,6 +20075,66 @@
       "email": "jnnfrsms08@gmail.com",
       "product": "Premium +",
       "amount": 1999.0,
+      "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Michele Law",
+      "email": "millidesigns@hotmail.com",
+      "product": "Premium +",
+      "amount": 2749.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Suzanne Logan",
+      "email": "suelogan7@outlook.com",
+      "product": "Premium +",
+      "amount": 500.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-17",
+      "name": "Mandy Middle",
+      "email": "mandymiddle@gmail.com",
+      "product": "Premium +",
+      "amount": 300.0,
+      "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Emma Hawxwell",
+      "email": "rosswoodstock1@gmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Robert Harris",
+      "email": "rharry45@bigpond.net.au",
+      "product": "Premium +",
+      "amount": 2499.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Tina E Scott",
+      "email": "tescott4223@gmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
       "closer": "Daniel Henderson",
       "mode": "Stripe",
       "source": "Paid"

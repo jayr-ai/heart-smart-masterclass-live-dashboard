@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-17T01:12:46.194558Z",
+    "generatedAt": "2026-09-18T04:45:37.192227Z",
     "source": "GHL REST API direct (Private Integration Token, no MCP, no BigQuery)",
-    "dataWindow": "2026-09-17",
+    "dataWindow": "2026-09-18",
     "totalOpportunities": 3432,
     "pipelineId": "fVjHZmcsCSemRfeoRBct",
     "pipelineName": "Webinar Pipeline"
@@ -28,9 +28,9 @@
     },
     {
       "name": "VIP Upgrade",
-      "count": 67,
+      "count": 66,
       "position": 3,
-      "winProbability": 1.95
+      "winProbability": 1.92
     },
     {
       "name": "Received Results",
@@ -46,9 +46,9 @@
     },
     {
       "name": "Received Referral",
-      "count": 21,
+      "count": 22,
       "position": 6,
-      "winProbability": 0.61
+      "winProbability": 0.64
     },
     {
       "name": "Purchased BG+ Diagnostic",

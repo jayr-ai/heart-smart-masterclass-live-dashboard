@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generatedAt": "2026-09-17T01:14:03.829041Z",
+    "generatedAt": "2026-09-18T04:46:55.409067Z",
     "source": "Composite of marketing-performance.json (Meta MCP) / funnel-stages.json (GHL REST API direct via PIT) / masterclass-registrations.json / masterclass-attendance.json / masterclass-applications.json (Google Sheet) / cash-attribution.json (Google Sheet + GHL attributionSource) \u2014 no BigQuery, no MCP dependency for GHL data",
-    "dataWindow": "2025-12-31 to 2026-09-17",
+    "dataWindow": "2025-12-31 to 2026-09-18",
     "cacheStatus": "Direct sync via Meta MCP + GHL REST API (PIT) + Google Sheets CSV export",
-    "syncedAt": "2026-09-17T01:14:03.829041Z"
+    "syncedAt": "2026-09-18T04:46:55.409067Z"
   },
   "funnelSnapshot": {
-    "generatedAt": "2026-09-17T01:12:46.194558Z",
+    "generatedAt": "2026-09-18T04:45:37.192227Z",
     "stages": [
       {
         "stage": "Optin",
@@ -23,7 +23,7 @@
       },
       {
         "stage": "VIP Upgrade",
-        "count": 67
+        "count": 66
       },
       {
         "stage": "Received Results",
@@ -35,7 +35,7 @@
       },
       {
         "stage": "Received Referral",
-        "count": 21
+        "count": 22
       },
       {
         "stage": "Purchased BG+ Diagnostic",
@@ -1934,17 +1934,24 @@
     },
     {
       "date": "2026-09-16",
-      "spend": 414.37,
-      "impressions": 20386,
+      "spend": 414.93,
+      "impressions": 20414,
       "linkClicks": 497,
       "leads": 68
     },
     {
       "date": "2026-09-17",
-      "spend": 47.88,
-      "impressions": 1728,
-      "linkClicks": 45,
-      "leads": 7
+      "spend": 328.08,
+      "impressions": 16143,
+      "linkClicks": 391,
+      "leads": 56
+    },
+    {
+      "date": "2026-09-18",
+      "spend": 212.12,
+      "impressions": 10455,
+      "linkClicks": 236,
+      "leads": 22
     }
   ],
   "cashAttributionDaily": [
@@ -3345,6 +3352,18 @@
       "totalCash": 6996.0,
       "cashFromAds": 1999.0,
       "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-09-17",
+      "totalCash": 3549.0,
+      "cashFromAds": 3549.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-18",
+      "totalCash": 12493.0,
+      "cashFromAds": 12493.0,
+      "cashFromOrganic": 0.0
     }
   ],
   "oneOffEvents": []

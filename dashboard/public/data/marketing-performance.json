@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T04:45:21.960218Z",
+    "generatedAt": "2026-09-21T01:49:09.288605Z",
     "source": "Meta Ads MCP direct (act_510603536638743, no BigQuery)",
     "adAccountId": "510603536638743",
     "dateRange": {
       "since": "2026-01-01",
-      "until": "2026-09-18"
+      "until": "2026-09-21"
     },
-    "totalDays": 249
+    "totalDays": 252
   },
   "daily": [
     {
@@ -1741,17 +1741,38 @@
     },
     {
       "date": "2026-09-17",
-      "spend": 328.08,
-      "impressions": 16143,
+      "spend": 328.3,
+      "impressions": 16152,
       "linkClicks": 391,
       "leads": 56
     },
     {
       "date": "2026-09-18",
-      "spend": 212.12,
-      "impressions": 10455,
-      "linkClicks": 236,
-      "leads": 22
+      "spend": 497.85,
+      "impressions": 27519,
+      "linkClicks": 576,
+      "leads": 67
+    },
+    {
+      "date": "2026-09-19",
+      "spend": 359.59,
+      "impressions": 19390,
+      "linkClicks": 475,
+      "leads": 63
+    },
+    {
+      "date": "2026-09-20",
+      "spend": 535.68,
+      "impressions": 31364,
+      "linkClicks": 711,
+      "leads": 89
+    },
+    {
+      "date": "2026-09-21",
+      "spend": 4.91,
+      "impressions": 335,
+      "linkClicks": 7,
+      "leads": 2
     }
   ]
 }

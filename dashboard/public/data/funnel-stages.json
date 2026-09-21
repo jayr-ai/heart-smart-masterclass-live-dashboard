@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T04:45:37.192227Z",
+    "generatedAt": "2026-09-21T01:49:23.514882Z",
     "source": "GHL REST API direct (Private Integration Token, no MCP, no BigQuery)",
-    "dataWindow": "2026-09-18",
+    "dataWindow": "2026-09-21",
     "totalOpportunities": 3432,
     "pipelineId": "fVjHZmcsCSemRfeoRBct",
     "pipelineName": "Webinar Pipeline"

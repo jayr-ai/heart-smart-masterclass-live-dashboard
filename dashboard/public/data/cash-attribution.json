@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T04:46:38.430216Z",
+    "generatedAt": "2026-09-21T01:50:24.852772Z",
     "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
-    "dataWindow": "2025-12-31 to 2026-09-18"
+    "dataWindow": "2025-12-31 to 2026-09-20"
   },
   "monthlySummary": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "month": "2026-09",
-      "totalCash": 92698.0,
-      "cashFromAds": 59015.0,
+      "totalCash": 103392.0,
+      "cashFromAds": 69709.0,
       "cashFromOrganic": 33683.0,
-      "transactionCount": 30
+      "transactionCount": 36
     }
   ],
   "dailyBreakdown": [
@@ -1483,8 +1483,20 @@
     },
     {
       "date": "2026-09-18",
-      "totalCash": 12493.0,
-      "cashFromAds": 12493.0,
+      "totalCash": 18190.0,
+      "cashFromAds": 18190.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-19",
+      "totalCash": 500.0,
+      "cashFromAds": 500.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-20",
+      "totalCash": 4497.0,
+      "cashFromAds": 4497.0,
       "cashFromOrganic": 0.0
     }
   ],
@@ -20136,6 +20148,66 @@
       "product": "Premium +",
       "amount": 4997.0,
       "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Alissa Sattler",
+      "email": "alissa.sattler@anu.edu.au",
+      "product": "Premium +",
+      "amount": 200.0,
+      "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Catarina M McLeay",
+      "email": "catarina.mcleay@gmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-18",
+      "name": "Andrea L Hibbins",
+      "email": "andrea.hibbins@gmail.com",
+      "product": "Premium +",
+      "amount": 500.0,
+      "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Cath Dimmick",
+      "email": "cdimmick1@icloud.com",
+      "product": "Premium +",
+      "amount": 200.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-19",
+      "name": "Cath Dimmick",
+      "email": "cdimmick1@icloud.com",
+      "product": "Premium +",
+      "amount": 300.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Andrea L Hibbins",
+      "email": "andrea.hibbins@gmail.com",
+      "product": "Premium +",
+      "amount": 4497.0,
+      "closer": "Marie Grondin",
       "mode": "Stripe",
       "source": "Paid"
     }

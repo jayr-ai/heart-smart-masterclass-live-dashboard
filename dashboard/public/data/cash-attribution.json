@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-21T01:50:24.852772Z",
+    "generatedAt": "2026-09-22T02:11:48.226944Z",
     "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
-    "dataWindow": "2025-12-31 to 2026-09-20"
+    "dataWindow": "2025-12-31 to 2026-09-22"
   },
   "monthlySummary": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "month": "2026-09",
-      "totalCash": 103392.0,
-      "cashFromAds": 69709.0,
+      "totalCash": 110888.0,
+      "cashFromAds": 77205.0,
       "cashFromOrganic": 33683.0,
-      "transactionCount": 36
+      "transactionCount": 38
     }
   ],
   "dailyBreakdown": [
@@ -1497,6 +1497,18 @@
       "date": "2026-09-20",
       "totalCash": 4497.0,
       "cashFromAds": 4497.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "totalCash": 4997.0,
+      "cashFromAds": 4997.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-22",
+      "totalCash": 2499.0,
+      "cashFromAds": 2499.0,
       "cashFromOrganic": 0.0
     }
   ],
@@ -20208,6 +20220,26 @@
       "product": "Premium +",
       "amount": 4497.0,
       "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Kerry  Kennedy",
+      "email": "kerry.kennedy@optusnet.com.au",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Robert Harris",
+      "email": "rharry45@bigpond.net.au",
+      "product": "Premium +",
+      "amount": 2499.0,
+      "closer": "Kymberley Peters",
       "mode": "Stripe",
       "source": "Paid"
     }

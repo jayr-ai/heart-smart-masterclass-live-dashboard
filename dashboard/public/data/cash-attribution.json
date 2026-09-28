@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-22T02:11:48.226944Z",
+    "generatedAt": "2026-09-28T05:08:00.486692Z",
     "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
-    "dataWindow": "2025-12-31 to 2026-09-22"
+    "dataWindow": "2025-12-31 to 2026-09-26"
   },
   "monthlySummary": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "month": "2026-09",
-      "totalCash": 110888.0,
-      "cashFromAds": 77205.0,
-      "cashFromOrganic": 33683.0,
-      "transactionCount": 38
+      "totalCash": 138222.0,
+      "cashFromAds": 91796.0,
+      "cashFromOrganic": 46426.0,
+      "transactionCount": 45
     }
   ],
   "dailyBreakdown": [
@@ -1507,9 +1507,27 @@
     },
     {
       "date": "2026-09-22",
-      "totalCash": 2499.0,
-      "cashFromAds": 2499.0,
+      "totalCash": 7096.0,
+      "cashFromAds": 7096.0,
       "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-24",
+      "totalCash": 4997.0,
+      "cashFromAds": 4997.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-25",
+      "totalCash": 4997.0,
+      "cashFromAds": 0.0,
+      "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-09-26",
+      "totalCash": 12743.0,
+      "cashFromAds": 4997.0,
+      "cashFromOrganic": 7746.0
     }
   ],
   "transactions": [
@@ -20239,6 +20257,76 @@
       "email": "rharry45@bigpond.net.au",
       "product": "Premium +",
       "amount": 2499.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Suzanne Logan",
+      "email": "suelogan7@outlook.com",
+      "product": "Premium +",
+      "amount": 4497.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Dean Nairn",
+      "email": "deanernest@outlook.com",
+      "product": "",
+      "amount": 100.0,
+      "closer": "",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-24",
+      "name": "Natelie Pearc",
+      "email": "fingalbay5@gmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-25",
+      "name": "Shelley Rae Mik",
+      "email": "mumandsons6@bigpond.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Organic"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Donna Smith",
+      "email": "smithdonnads252@gmail.com",
+      "product": "",
+      "amount": 4997.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Organic"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Joanie Waterford",
+      "email": "fargnun@gmail.com",
+      "product": "Premium +",
+      "amount": 2749.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Organic"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "John Katsonis",
+      "email": "jkatsonis@hotmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
       "closer": "Kymberley Peters",
       "mode": "Stripe",
       "source": "Paid"

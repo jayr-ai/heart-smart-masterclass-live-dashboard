@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generatedAt": "2026-09-22T02:12:03.882790Z",
+    "generatedAt": "2026-09-28T05:08:14.178781Z",
     "source": "Composite of marketing-performance.json (Meta MCP) / funnel-stages.json (GHL REST API direct via PIT) / masterclass-registrations.json / masterclass-attendance.json / masterclass-applications.json (Google Sheet) / cash-attribution.json (Google Sheet + GHL attributionSource) \u2014 no BigQuery, no MCP dependency for GHL data",
-    "dataWindow": "2025-12-31 to 2026-09-22",
+    "dataWindow": "2025-12-31 to 2026-09-28",
     "cacheStatus": "Direct sync via Meta MCP + GHL REST API (PIT) + Google Sheets CSV export",
-    "syncedAt": "2026-09-22T02:12:03.882790Z"
+    "syncedAt": "2026-09-28T05:08:14.178781Z"
   },
   "funnelSnapshot": {
-    "generatedAt": "2026-09-22T02:10:50.677032Z",
+    "generatedAt": "2026-09-28T05:07:08.052196Z",
     "stages": [
       {
         "stage": "Optin",
@@ -1969,17 +1969,59 @@
     },
     {
       "date": "2026-09-21",
-      "spend": 125.41,
-      "impressions": 8821,
+      "spend": 125.75,
+      "impressions": 8844,
       "linkClicks": 170,
       "leads": 18
     },
     {
       "date": "2026-09-22",
-      "spend": 58.14,
-      "impressions": 2842,
-      "linkClicks": 53,
-      "leads": 3
+      "spend": 454.22,
+      "impressions": 27776,
+      "linkClicks": 467,
+      "leads": 54
+    },
+    {
+      "date": "2026-09-23",
+      "spend": 318.36,
+      "impressions": 17202,
+      "linkClicks": 339,
+      "leads": 50
+    },
+    {
+      "date": "2026-09-24",
+      "spend": 496.2,
+      "impressions": 26045,
+      "linkClicks": 607,
+      "leads": 98
+    },
+    {
+      "date": "2026-09-25",
+      "spend": 463.54,
+      "impressions": 26332,
+      "linkClicks": 562,
+      "leads": 58
+    },
+    {
+      "date": "2026-09-26",
+      "spend": 335.95,
+      "impressions": 18026,
+      "linkClicks": 382,
+      "leads": 48
+    },
+    {
+      "date": "2026-09-27",
+      "spend": 517.33,
+      "impressions": 32907,
+      "linkClicks": 692,
+      "leads": 89
+    },
+    {
+      "date": "2026-09-28",
+      "spend": 118.15,
+      "impressions": 6059,
+      "linkClicks": 128,
+      "leads": 14
     }
   ],
   "cashAttributionDaily": [
@@ -3413,9 +3455,27 @@
     },
     {
       "date": "2026-09-22",
-      "totalCash": 2499.0,
-      "cashFromAds": 2499.0,
+      "totalCash": 7096.0,
+      "cashFromAds": 7096.0,
       "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-24",
+      "totalCash": 4997.0,
+      "cashFromAds": 4997.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-25",
+      "totalCash": 4997.0,
+      "cashFromAds": 0.0,
+      "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-09-26",
+      "totalCash": 12743.0,
+      "cashFromAds": 4997.0,
+      "cashFromOrganic": 7746.0
     }
   ],
   "oneOffEvents": []

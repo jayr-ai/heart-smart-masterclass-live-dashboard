@@ -55,6 +55,15 @@ export function calculateMasterclassWindow(
     const nextDateObj = new Date(nextDate + 'T00:00:00')
     nextDateObj.setDate(nextDateObj.getDate() - 1)
     windowEnd = toLocalISODate(nextDateObj)
+  } else if (currentDate === '2026-08-26') {
+    // One-time cap, per user decision 2026-09-28: no run has followed 26 Aug
+    // 2026 for over a month, so windowEnd = today would keep growing and
+    // bloat this run's "Revenue Collected" with weeks of unrelated
+    // transactions. Capped to a realistic 7-day post-webinar window
+    // (26 Aug - 1 Sep) instead of the usual "latest run -> today" default.
+    // Not a general rule - a future run with the same no-next-run gap would
+    // still default to today unless this is revisited.
+    windowEnd = '2026-09-01'
   } else {
     // Latest run - use today as window end
     windowEnd = toLocalISODate(new Date())

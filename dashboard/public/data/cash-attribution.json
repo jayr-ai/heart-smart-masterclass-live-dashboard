@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-09-29T01:32:32.822842Z",
+    "generatedAt": "2026-10-01T02:05:27.693074Z",
     "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
-    "dataWindow": "2025-12-31 to 2026-09-28"
+    "dataWindow": "2025-12-31 to 2026-09-30"
   },
   "monthlySummary": [
     {
@@ -70,10 +70,10 @@
     },
     {
       "month": "2026-09",
-      "totalCash": 149716.0,
-      "cashFromAds": 98293.0,
+      "totalCash": 165207.0,
+      "cashFromAds": 113784.0,
       "cashFromOrganic": 51423.0,
-      "transactionCount": 48
+      "transactionCount": 52
     }
   ],
   "dailyBreakdown": [
@@ -1534,6 +1534,18 @@
       "totalCash": 11494.0,
       "cashFromAds": 6497.0,
       "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-09-29",
+      "totalCash": 5497.0,
+      "cashFromAds": 5497.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "totalCash": 9994.0,
+      "cashFromAds": 9994.0,
+      "cashFromOrganic": 0.0
     }
   ],
   "transactions": [
@@ -20366,6 +20378,46 @@
       "closer": "Daniel Henderson",
       "mode": "Stripe",
       "source": "Organic"
+    },
+    {
+      "date": "2026-09-29",
+      "name": "Lindsay Stainton",
+      "email": "lestainton@icloud.com",
+      "product": "Premium +",
+      "amount": 500.0,
+      "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-29",
+      "name": "Rosalia Heinrich",
+      "email": "rosyh125@gmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Marie Grondin",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Dene Archer",
+      "email": "denepaul@westnet.com.au",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Desley Pidgeon",
+      "email": "des.pidgeon@gmail.com",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Paid"
     }
   ]
 }

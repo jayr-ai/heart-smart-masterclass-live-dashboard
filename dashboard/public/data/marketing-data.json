@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generatedAt": "2026-09-29T01:32:46.562492Z",
+    "generatedAt": "2026-10-01T02:05:43.917090Z",
     "source": "Composite of marketing-performance.json (Meta MCP) / funnel-stages.json (GHL REST API direct via PIT) / masterclass-registrations.json / masterclass-attendance.json / masterclass-applications.json (Google Sheet) / cash-attribution.json (Google Sheet + GHL attributionSource) \u2014 no BigQuery, no MCP dependency for GHL data",
-    "dataWindow": "2025-12-31 to 2026-09-29",
+    "dataWindow": "2025-12-31 to 2026-10-01",
     "cacheStatus": "Direct sync via Meta MCP + GHL REST API (PIT) + Google Sheets CSV export",
-    "syncedAt": "2026-09-29T01:32:46.562492Z"
+    "syncedAt": "2026-10-01T02:05:43.917425Z"
   },
   "funnelSnapshot": {
-    "generatedAt": "2026-09-29T01:31:43.667114Z",
+    "generatedAt": "2026-10-01T02:04:23.366273Z",
     "stages": [
       {
         "stage": "Optin",
@@ -2025,10 +2025,24 @@
     },
     {
       "date": "2026-09-29",
-      "spend": 0.0,
-      "impressions": 0,
-      "linkClicks": 0,
-      "leads": 1
+      "spend": 280.14,
+      "impressions": 16831,
+      "linkClicks": 350,
+      "leads": 26
+    },
+    {
+      "date": "2026-09-30",
+      "spend": 342.32,
+      "impressions": 20747,
+      "linkClicks": 383,
+      "leads": 37
+    },
+    {
+      "date": "2026-10-01",
+      "spend": 76.62,
+      "impressions": 3589,
+      "linkClicks": 82,
+      "leads": 8
     }
   ],
   "cashAttributionDaily": [
@@ -3489,6 +3503,18 @@
       "totalCash": 11494.0,
       "cashFromAds": 6497.0,
       "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-09-29",
+      "totalCash": 5497.0,
+      "cashFromAds": 5497.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "totalCash": 9994.0,
+      "cashFromAds": 9994.0,
+      "cashFromOrganic": 0.0
     }
   ],
   "oneOffEvents": []

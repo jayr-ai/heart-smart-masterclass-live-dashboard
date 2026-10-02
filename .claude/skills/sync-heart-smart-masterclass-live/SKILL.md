@@ -120,8 +120,16 @@ Options:
    oneOffEvents: []) — the frontend fetches this one first and errors if
    it's missing. `masterclass-applications.json` is fetched separately by
    the page, not folded into this composite.
-6. **Commit & push** `dashboard/public/data/*.json` and `sync/attribution_cache.json`
-   to the repo.
+6. **Commit & push — TWO separate targets, both required** (corrected
+   2026-10-02 after production ran two syncs stale — see IMPLEMENTATION.md
+   History). Commit `dashboard/public/data/*.json` and
+   `sync/attribution_cache.json` to this repo, then mirror the same data
+   files into `heart-smart-dashboard/masterclass-dashboard/data/` (separate
+   repo, separate commit/push — see IMPLEMENTATION.md Phase 6). That second
+   repo is the actual production domain,
+   `datahub.heartsmartaustralia.com.au/masterclass-dashboard/` — don't skip
+   it, and verify the live domain picked up the change before calling the
+   sync done.
 
 See `IMPLEMENTATION.md` for the exact tool calls, tag formats, and file
 shapes.

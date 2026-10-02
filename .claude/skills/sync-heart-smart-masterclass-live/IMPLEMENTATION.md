@@ -187,12 +187,20 @@ separately by the page and does NOT feed into this composite):
 }
 ```
 
-## Phase 6: Deploy — commit, push
+## Phase 6: Deploy — TWO separate targets, both required
 
-This repo has no `docs/` GitHub Pages split yet (not deployed as of
-2026-09-16) — once it is, mirror FA's Phase 6 pattern (copy built output
-into whatever directory GitHub Pages serves from). Until then:
+**Corrected 2026-10-02** — the note below this repo had "no `docs/` split
+yet, not deployed" was true on 2026-09-16 but went stale without being
+re-checked: a second, separate deploy target already exists and is the one
+the user actually looks at (`datahub.heartsmartaustralia.com.au/masterclass-dashboard/`).
+Two Oct 1/Oct 2 syncs in a row only updated Target A below and silently
+left production on Sep 29 data — the exact same class of bug FA hit on
+2026-09-17 (see that skill's IMPLEMENTATION.md History). **Always do both
+targets, every sync, and verify the live domain before calling it done.**
 
+**Target A — this repo** (source of truth; no live GitHub Pages deploy of
+its own as of 2026-10-02 — check `git remote -v` / repo settings if that
+ever changes, don't assume):
 ```bash
 cd /Users/jayvee/Documents/ds-work/heart-smart-masterclass-live-dashboard
 git add dashboard/public/data/*.json sync/attribution_cache.json
@@ -200,7 +208,39 @@ git commit -m "Sync masterclass data through <date>"
 git push origin main
 ```
 
-Skip the push if `--no-push`.
+**Target B — the real production domain**,
+`datahub.heartsmartaustralia.com.au/masterclass-dashboard/`, served from the
+**separate** `heart-smart-dashboard` repo's `masterclass-dashboard/` folder
+(a full built copy — `index.html` + `assets/` + `data/`, same shape as FA's
+`au-fa-dashboard/marketing-dashboard/`):
+```bash
+cd /Users/jayvee/Documents/ds-work/heart-smart-dashboard
+git fetch origin && git pull --ff-only origin main   # shared repo — other dashboards push here too, always sync first
+cp /Users/jayvee/Documents/ds-work/heart-smart-masterclass-live-dashboard/dashboard/public/data/*.json masterclass-dashboard/data/
+git add masterclass-dashboard/data
+git commit -m "Sync masterclass-dashboard data through <date>"
+git push origin main
+```
+If frontend **code** changed since Target B was last updated (compare the
+JS bundle filename in `masterclass-dashboard/assets/` against
+`dashboard/dist/assets/` in the source repo — different hash means
+different code; run `npm run build` in the source repo's `dashboard/` first
+if needed), also copy the full build, not just data:
+```bash
+rm -rf masterclass-dashboard/assets
+cp -r /Users/jayvee/Documents/ds-work/heart-smart-masterclass-live-dashboard/dashboard/dist/* masterclass-dashboard/
+git add masterclass-dashboard
+```
+`heart-smart-dashboard` is a **shared repo** other automations push to
+(revenue dashboard, sales dashboard, etc.) — always `git fetch`/`pull
+--ff-only` before editing, and scope `git add` to `masterclass-dashboard/`
+only.
+
+Skip both pushes if `--no-push`. Verify Target B actually updated by
+fetching its live `data/marketing-performance.json` (or whichever file
+changed) and checking `meta.generatedAt` matches this run — don't assume
+the push succeeded just because the command didn't error, and don't trust
+a stale "not deployed yet" note again without checking.
 
 ## History
 
@@ -225,3 +265,14 @@ Skip the push if `--no-push`.
   updated. Also confirmed via testing: the Webinar Tracker sheet's tab-name
   lookup resolves to the wrong tab (363-row garbage vs. the real 3,763-row
   sheet) — must fetch by gid `535091378`.
+- **2026-10-02, discovered production was two syncs behind**: user
+  screenshotted `datahub.heartsmartaustralia.com.au/masterclass-dashboard/`
+  showing all-zero October data despite two sync runs (Oct 1, Oct 2) having
+  just completed. Traced to Phase 6 only ever committing to this repo —
+  `heart-smart-dashboard/masterclass-dashboard/` is a separate, already-live
+  deploy target (same two-repo pattern as FA, set up ~2026-09-29) that this
+  skill's docs never mentioned, so it had been silently stuck on Sep 29 data.
+  Same root cause and same fix as FA's 2026-09-17 incident: a "not deployed
+  yet" note from this skill's first build went stale and was never
+  re-verified. Copied the Oct 2 data in immediately and rewrote Phase 6 as
+  two explicit, both-required deploy targets, mirroring FA's.

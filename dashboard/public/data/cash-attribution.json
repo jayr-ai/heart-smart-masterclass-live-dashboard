@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-10-01T02:05:27.693074Z",
+    "generatedAt": "2026-10-02T02:32:16.218175Z",
     "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
-    "dataWindow": "2025-12-31 to 2026-09-30"
+    "dataWindow": "2025-12-31 to 2026-10-01"
   },
   "monthlySummary": [
     {
@@ -74,6 +74,13 @@
       "cashFromAds": 113784.0,
       "cashFromOrganic": 51423.0,
       "transactionCount": 52
+    },
+    {
+      "month": "2026-10",
+      "totalCash": 3497.0,
+      "cashFromAds": 3497.0,
+      "cashFromOrganic": 0.0,
+      "transactionCount": 1
     }
   ],
   "dailyBreakdown": [
@@ -1545,6 +1552,12 @@
       "date": "2026-09-30",
       "totalCash": 9994.0,
       "cashFromAds": 9994.0,
+      "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-10-01",
+      "totalCash": 3497.0,
+      "cashFromAds": 3497.0,
       "cashFromOrganic": 0.0
     }
   ],
@@ -20416,6 +20429,16 @@
       "product": "Premium +",
       "amount": 4997.0,
       "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Stuart George Leary",
+      "email": "sleary76@gmail.com",
+      "product": "Premium +",
+      "amount": 3497.0,
+      "closer": "Nik Toth",
       "mode": "Stripe",
       "source": "Paid"
     }

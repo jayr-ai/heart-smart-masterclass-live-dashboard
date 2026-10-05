@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generatedAt": "2026-10-02T02:32:27.115563Z",
+    "generatedAt": "2026-10-05T03:25:53.498914Z",
     "source": "Composite of marketing-performance.json (Meta MCP) / funnel-stages.json (GHL REST API direct via PIT) / masterclass-registrations.json / masterclass-attendance.json / masterclass-applications.json (Google Sheet) / cash-attribution.json (Google Sheet + GHL attributionSource) \u2014 no BigQuery, no MCP dependency for GHL data",
-    "dataWindow": "2025-12-31 to 2026-10-02",
+    "dataWindow": "2025-12-31 to 2026-10-05",
     "cacheStatus": "Direct sync via Meta MCP + GHL REST API (PIT) + Google Sheets CSV export",
-    "syncedAt": "2026-10-02T02:32:27.119390Z"
+    "syncedAt": "2026-10-05T03:25:53.499279Z"
   },
   "funnelSnapshot": {
-    "generatedAt": "2026-10-02T02:31:25.862674Z",
+    "generatedAt": "2026-10-05T03:25:00.571719Z",
     "stages": [
       {
         "stage": "Optin",
@@ -2046,10 +2046,31 @@
     },
     {
       "date": "2026-10-02",
-      "spend": 49.43,
-      "impressions": 2576,
-      "linkClicks": 62,
-      "leads": 5
+      "spend": 327.63,
+      "impressions": 19938,
+      "linkClicks": 405,
+      "leads": 48
+    },
+    {
+      "date": "2026-10-03",
+      "spend": 415.35,
+      "impressions": 25561,
+      "linkClicks": 496,
+      "leads": 49
+    },
+    {
+      "date": "2026-10-04",
+      "spend": 433.54,
+      "impressions": 25320,
+      "linkClicks": 540,
+      "leads": 64
+    },
+    {
+      "date": "2026-10-05",
+      "spend": 118.42,
+      "impressions": 5880,
+      "linkClicks": 165,
+      "leads": 17
     }
   ],
   "cashAttributionDaily": [
@@ -3528,6 +3549,18 @@
       "totalCash": 3497.0,
       "cashFromAds": 3497.0,
       "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-10-03",
+      "totalCash": 7746.0,
+      "cashFromAds": 2749.0,
+      "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-10-04",
+      "totalCash": 97.0,
+      "cashFromAds": 0.0,
+      "cashFromOrganic": 97.0
     }
   ],
   "oneOffEvents": []

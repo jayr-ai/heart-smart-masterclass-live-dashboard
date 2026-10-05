@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generatedAt": "2026-10-02T02:32:16.218175Z",
+    "generatedAt": "2026-10-05T03:25:42.495818Z",
     "source": "Google Sheet 'CONSOLIDATED' (direct CSV pull), attribution via GHL attributionSource lookup (sync/attribution_cache.json) \u2014 no BigQuery",
-    "dataWindow": "2025-12-31 to 2026-10-01"
+    "dataWindow": "2025-12-31 to 2026-10-04"
   },
   "monthlySummary": [
     {
@@ -77,10 +77,10 @@
     },
     {
       "month": "2026-10",
-      "totalCash": 3497.0,
-      "cashFromAds": 3497.0,
-      "cashFromOrganic": 0.0,
-      "transactionCount": 1
+      "totalCash": 11340.0,
+      "cashFromAds": 6246.0,
+      "cashFromOrganic": 5094.0,
+      "transactionCount": 4
     }
   ],
   "dailyBreakdown": [
@@ -1559,6 +1559,18 @@
       "totalCash": 3497.0,
       "cashFromAds": 3497.0,
       "cashFromOrganic": 0.0
+    },
+    {
+      "date": "2026-10-03",
+      "totalCash": 7746.0,
+      "cashFromAds": 2749.0,
+      "cashFromOrganic": 4997.0
+    },
+    {
+      "date": "2026-10-04",
+      "totalCash": 97.0,
+      "cashFromAds": 0.0,
+      "cashFromOrganic": 97.0
     }
   ],
   "transactions": [
@@ -19986,7 +19998,7 @@
       "date": "2026-09-04",
       "name": "",
       "email": "alixbradley@bigpond.com",
-      "product": "",
+      "product": "HS Rewire Membership",
       "amount": 97.0,
       "closer": "",
       "mode": "Stripe",
@@ -20441,6 +20453,36 @@
       "closer": "Nik Toth",
       "mode": "Stripe",
       "source": "Paid"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "Janet Obrien",
+      "email": "janeteobrien@optusnet.com.au",
+      "product": "Premium +",
+      "amount": 4997.0,
+      "closer": "Daniel Henderson",
+      "mode": "Stripe",
+      "source": "Organic"
+    },
+    {
+      "date": "2026-10-03",
+      "name": "Jayne Cluning",
+      "email": "jayne.cluning@gmail.com",
+      "product": "Premium +",
+      "amount": 2749.0,
+      "closer": "Kymberley Peters",
+      "mode": "Stripe",
+      "source": "Paid"
+    },
+    {
+      "date": "2026-10-04",
+      "name": "Alix Bradley",
+      "email": "alixbradley@bigpond.com",
+      "product": "HS Rewire Membership",
+      "amount": 97.0,
+      "closer": "",
+      "mode": "Stripe",
+      "source": "Organic"
     }
   ]
 }
